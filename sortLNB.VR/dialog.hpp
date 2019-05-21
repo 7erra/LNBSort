@@ -1,10 +1,3 @@
-#define GUI_GRID_X	(0.5 - ((safezoneW / safezoneH) min 1.2)/2)
-#define GUI_GRID_Y	(0.5 - (((safezoneW / safezoneH) min 1.2) / 1.2)/2)
-#define GUI_GRID_W	(((safezoneW / safezoneH) min 1.2) / 40)
-#define GUI_GRID_H	((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)
-#define GUI_GRID_WAbs	((safezoneW / safezoneH) min 1.2)
-#define GUI_GRID_HAbs	(((safezoneW / safezoneH) min 1.2) / 1.2)
-
 class TER_lnbSort
 {
 	idd = 7300;
